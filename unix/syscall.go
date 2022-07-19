@@ -30,7 +30,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"golang.org/x/sys/internal/unsafeheader"
+	"github.com/johnmaq/golang-sys/internal/unsafeheader"
 )
 
 // ByteSliceFromString returns a NUL-terminated slice of bytes
